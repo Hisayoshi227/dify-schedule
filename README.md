@@ -31,17 +31,17 @@ Automated Runtime: 06:30 AM Beijing Time
    | DIFY_BASE_URL | Dify address. For private deployments, ensure public network accessibility. Defaults to https://api.dify.ai/v1 if not set | No |
    | DIFY_TOKENS | Dify workflow API keys. Required. Supports multiple keys separated by `;` | Yes |
    | DIFY_INPUTS | Variables required by Dify workflow. If you configured required inputs in Dify, this must be set in JSON format. Use an online JSON validator to verify | No |
-   | EMAIL_USER | Sender's email address (SMTP must be enabled) | No |
-   | EMAIL_PASS | Sender's email password (SMTP password) | No |
-   | EMAIL_TO | Subscriber email addresses (recipients). For multiple subscribers, separate with `, `, e.g.: `a@163.com, b@qq.com` | No |
-   | DINGDING_WEBHOOK | DingTalk robot WEBHOOK | No |
-   | PUSHPLUS_TOKEN | Token from [Pushplus](http://www.pushplus.plus/) for WeChat message push | No |
-   | SERVERPUSHKEY | Key from [ServerChan](https://sct.ftqq.com//) for WeChat message push | No |
-   | WEIXIN_WEBHOOK | WeCom (Enterprise WeChat) robot WEBHOOK | No |
-   | FEISHU_WEBHOOK | Feishu robot WEBHOOK | No |
-   | AIBOTK_KEY | OpenAPI for WeChat sending. Register at [AI Secretary](https://wechat.aibotk.com?r=dBL0Bn&f=difySchedule), get apikey from personal center | No |
-   | AIBOTK_ROOM_RECIVER | Group names for [Wechat Assistant](https://wechat.aibotk.com?r=dBL0Bn&f=difySchedule) messages | No |
-   | AIBOTK_CONTACT_RECIVER | Contact nicknames for [Wechat Assistant](https://wechat.aibotk.com?r=dBL0Bn&f=difySchedule) messages | No |
+   | EMAIL_USER | Sender's email address (SMTP must be enabled) | Email |
+   | EMAIL_PASS | Sender's email password (SMTP password) | Email |
+   | EMAIL_TO | Subscriber email addresses (recipients). For multiple subscribers, separate with `, `, e.g.: `a@163.com, b@qq.com` | Email |
+   | DINGDING_WEBHOOK | DingTalk robot WEBHOOK | DingTalk |
+   | PUSHPLUS_TOKEN | Token from [Pushplus](http://www.pushplus.plus/) for WeChat message push | WeChat |
+   | SERVERPUSHKEY | Key from [ServerChan](https://sct.ftqq.com//) for WeChat message push | WeChat |
+   | WEIXIN_WEBHOOK | WeCom (Enterprise WeChat) robot WEBHOOK | WeCom |
+   | FEISHU_WEBHOOK | Feishu robot WEBHOOK | Feishu |
+   | AIBOTK_KEY | OpenAPI for WeChat sending. Register at [AI Secretary](https://wechat.aibotk.com?r=dBL0Bn&f=difySchedule), get apikey from personal center | WeChat |
+   | AIBOTK_ROOM_RECIVER | Group names for [Wechat Assistant](https://wechat.aibotk.com?r=dBL0Bn&f=difySchedule) messages | グループチャット |
+   | AIBOTK_CONTACT_RECIVER | Contact nicknames for [Wechat Assistant](https://wechat.aibotk.com?r=dBL0Bn&f=difySchedule) messages | プライベートチャット |
 
 4. Repository -> Actions, check and enable Workflows.
 
