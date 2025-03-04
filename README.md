@@ -29,7 +29,7 @@ Automated Runtime: 06:30 AM Beijing Time
    | Name | Value | Required |
    | --- | --- | --- |
    | DIFY_BASE_URL | Dify address. For private deployments, ensure public network accessibility. Defaults to https://api.dify.ai/v1 if not set | No |
-   | DIFY_TOKENS | Dify workflow API keys. Required. Supports multiple keys separated by `;` | Yes |
+   | DIFY_TOKENS | Dify workflow API keys. Required. Supports multiple keys separated by `app-IydNpk52IGXUXw5e6qM1g3TJ` | Yes |
    | DIFY_INPUTS | Variables required by Dify workflow. If you configured required inputs in Dify, this must be set in JSON format. Use an online JSON validator to verify | No |
    | EMAIL_USER | Sender's email address (SMTP must be enabled) | Email |
    | EMAIL_PASS | Sender's email password (SMTP password) | Email |
